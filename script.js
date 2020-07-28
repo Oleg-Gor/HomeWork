@@ -1,7 +1,7 @@
 'use strict';
 
-//a=5;
-//console.log(a);
+a=5;
+console.log(a);
 
 var number = 5;
 var string = "hello";
