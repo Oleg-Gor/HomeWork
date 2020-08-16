@@ -1,0 +1,146 @@
+nav p span {
+    background: red;
+    margin-left: -.25em;
+    padding: 10px 20px;
+    border-right: 2px solid black;
+
+}
+
+nav p span:last-child {
+    border-right: 0px solid black;
+}
+
+
+span a:link {
+    color: paleturquoise;
+}
+
+span a:visited {
+    color: green;
+}
+
+span a:active {
+    color: blueviolet;
+}
+
+ul {
+
+    padding: 0;
+    margin: 0;
+}
+
+
+
+li:first-child {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+li:first-child:before {
+    content: '';
+    border: 2px solid #000000;
+    background: black;
+
+    display: inline-block;
+    width: 1px;
+    height: 1px;
+
+}
+
+li:last-child {
+    content: '';
+    border-bottom: 1px solid #000;
+
+}
+
+li a {
+    text-decoration: none;
+    color: #444;
+    display: inline-block;
+}
+
+li a:hover {
+    text-decoration: underline;
+    color: #999;
+
+}
+
+img {
+    float: left;
+
+}
+
+.HW4 {
+    text-align: center;
+
+}
+
+table {
+    width: 50%;
+    text-align: left;
+}
+
+td,
+th {
+    padding: 5px 10px;
+
+}
+
+th {
+    background: grey;
+}
+
+th:nth-child(3) {
+    text-align: center;
+
+}
+
+th:nth-child(4) {
+    text-align: center;
+
+}
+
+td:nth-child(3) {
+    text-align: center;
+
+}
+
+td:nth-child(4) {
+    text-align: center;
+
+}
+
+td:nth-child(5) {
+    text-align: right;
+
+}
+
+/*tr:nth-child(even) {
+    background: white;
+}
+
+tr:nth-child(odd) {
+    background: cornsilk;
+}*/
+tr:nth-child(2n+1) {
+    background: cornsilk;
+}
+
+td:nth-child(4)::before {
+    content: '$';
+
+
+}
+
+
+body header h1 a img {
+    float: none;
+}
+
+body header+main section article {
+    background: darkcyan;
+}
+
+body header+main+footer {
+    background: darkred;
+}
