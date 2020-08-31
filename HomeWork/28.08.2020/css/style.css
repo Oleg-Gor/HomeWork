@@ -1,0 +1,32 @@
+body {
+width: 1000px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+
+}
+p {
+
+font-size: large;
+
+}
+
+.shest {
+color: red;
+display: flex;
+justify-content: center;
+font-size: 25px;
+}
+
+body > .radio {
+display: none;
+padding: 20px;
+/*display: block;*/
+}
+
+table {
+
+    display: none;
+
+}
