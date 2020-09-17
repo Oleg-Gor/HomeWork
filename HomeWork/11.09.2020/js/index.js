@@ -235,7 +235,7 @@ function HW_07() {
 
 
 
-            alert('!');
+            
 
             var time2 = performance.now();
 
@@ -246,7 +246,7 @@ function HW_07() {
     }
 
     var timer = createTimer();
-    // код, время выполнения которого нужно измерить
+    alert('!');// код, время выполнения которого нужно измерить
     alert(timer()); // время в мкс от начала выполнения createTimer() до момента вызова timer()
 
 
